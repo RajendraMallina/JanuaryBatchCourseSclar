@@ -70,7 +70,7 @@ public class RainWaterTrapped {
 /* Procedure to solve this problem in linear time.
  * 
  * The total amount of water you can store on a each building was the min(leftMaxBuilding, rightMaxBuilding)
- * So we need to keep two variables which describes the left most height for and right most height for building.
+ * So we need to keep two variables which describes the left most height and right most height for building.
  * So start program execution from both ends(left and right). If right side building height was greater than left
  * side building than calculate water content from the left side. If your left side building is left side max height
  * building than water content on this building was 0. Otherwise water content on your building was max height of 
